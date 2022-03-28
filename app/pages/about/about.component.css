@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=BioRhyme:wght@300&family=Bitter:wght@500&family=DM+Sans:wght@500&family=Dancing+Script:wght@600&family=Josefin+Sans&family=Nunito+Sans:wght@600&family=Pacifico&family=Roboto&family=Ubuntu:ital,wght@1,300&display=swap');
+*{
+    font-family: 'Bebas Neue', cursive;
+font-family: 'BioRhyme', serif;
+font-family: 'Bitter', serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'DM Sans', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-size: large;
+font-weight: 800;
+}.sec
+{
+-webkit-text-size-adjust: 100%;
+-webkit-tap-highlight-color: transparent;
+/*font-family: "Open Sans",Arial,Helvetica,"Helvetica Neue",sans-serif;*/
+font-size: 1rem;
+font-weight: normal;
+line-height: 1.5;
+color: #212529;
+text-align: left;
+box-sizing: border-box;
+}
+#sec1{
+-webkit-text-size-adjust: 100%;
+-webkit-tap-highlight-color: transparent;
+font-size: 1rem;
+font-weight: normal;
+line-height: 1.5;
+color: #212529;
+text-align: left;
+box-sizing: border-box;
+margin: 0 auto;
+max-width: 134.8rem;
+background-color: #ffffff;}
+.row{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+#para2{
+    
+    width: 1cm;
+}
+
+#p1{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    line-height: 1.1;
+    color: #6d6e70;
+    font-size: 1.8rem;
+    text-align: center;
+}
+#h{-webkit-text-size-adjust: 100%;
+-webkit-tap-highlight-color: transparent;
+box-sizing: border-box;
+margin-top: 0;
+margin-bottom: .5rem;
+font-weight: 900;
+line-height: 1.2;
+color: #333;
+font-size: 3.2rem;
+text-align: center;}
+.cls
+{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -10px;
+}

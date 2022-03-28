@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=BioRhyme:wght@300&family=Bitter:wght@500&family=DM+Sans:wght@500&family=Dancing+Script:wght@600&family=Josefin+Sans&family=Nunito+Sans:wght@600&family=Pacifico&family=Roboto&family=Ubuntu:ital,wght@1,300&display=swap');
+*{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'BioRhyme', serif;
+    font-family: 'Bitter', serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.cls{
+    background-color: rgb(153, 35, 35);
+}
+.im{
+    font-weight: 700;
+    color: #fff;
+}
+label{
+    font-size: larger;
+    font-weight: 700;
+}
+
+.div{
+    margin-top: 1%;
+    margin-left: 5%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    color: #2e2b28;
+    font-size: 14px;
+    margin-bottom: 4%;
+    text-rendering: optimizeLegibility !important;
+    box-sizing: border-box;
+    background: #eee;
+    width: 50%;
+    height: 10%;
+    float: left;
+    padding: 50px;
+}
+#requestButton{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    box-sizing: border-box;
+    font: inherit;
+    margin: 0;
+    font-size: large;
+    overflow: visible;
+    text-transform: none;
+    -webkit-appearance: button;
+    cursor: pointer;
+    line-height: inherit;
+    display: inline-block;
+    background: #000;
+    border: none;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 14px 27px 0px rgba(0, 0, 0, 0.23);
+}

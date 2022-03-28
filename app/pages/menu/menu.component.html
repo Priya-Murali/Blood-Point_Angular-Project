@@ -1,0 +1,74 @@
+<div class="cls"><h1 class="im">TO REQUEST BLOOD.... <img src="https://media.istockphoto.com/vectors/drop-vector-id1081786788?k=20&m=1081786788&s=612x612&w=0&h=LbVZIIk-YIkPU2z3smmTa5XhniEkZqZd1i9vRhVk5TA="height="40cm" width="40cm">
+</h1>
+<img src="https://media.istockphoto.com/photos/hands-holding-red-heart-health-care-love-organ-donation-family-heart-picture-id1267045592?k=20&m=1267045592&s=612x612&w=0&h=mDYX8A1yZE5bJZF3EUl3a4aKufPf1gCK-nlZ77RmYMY=" height="200cm" width="1349cm">
+</div>
+ <section class="blood-donote">
+    <div class="div">
+  <form id="blood_request">
+    <div class="col-md-4 form-group"id="p1">   
+    <label>Patient name</label>
+    <input type="text" name="patient_name" required="">
+    </div>
+    <div class="col-md-4 form-group">   
+    <label>Contact name</label>
+    <input type="text" name="contact_name" required="">
+    </div>
+    <div class="col-md-4 form-group">   
+    <label>Email</label>
+   <input type="email" name="email_id" required="">
+  </div>
+ <div class="col-md-4 form-group">   
+ <label>Blood Group</label>
+          <select class="form-control" name="blood_group" required="">
+                          <option value="">Blood Group</option>
+                          <option value="A+ve">A+ve</option>
+                          <option value="B+ve">B+ve</option>
+                          <option value="AB+ve">AB+ve</option>
+                          <option value="O+ve">O+ve</option>
+                          <option value="A-ve">A-ve</option>
+                          <option value="B-ve">B-ve</option>
+                          <option value="AB-ve">AB-ve</option>
+                          <option value="O-ve">O-ve</option>
+                      </select>
+                    </div>
+                    <div class="col-md-4 form-group">   
+                      <label>City</label>
+                      <input type="text" name="city" required="">
+                    </div>
+                    <div class="col-md-4 form-group">   
+                      <label>Contact Number</label>
+                      <input type="text" name="contact_number" required="">
+                    </div>
+                    <div class="col-md-4 form-group">   
+                      <label>Required Date</label>
+                      <input type="text" class="dateselector hasDatepicker" name="required_date" required="" id="dp1647691313691">
+                    </div>
+                    <div class="col-md-4 form-group">   
+                      <label>Doctor name</label>
+                      <input type="text" name="doctor_name">
+                    </div>
+                    <div class="col-md-6 form-group">   
+                      <label>Hospital Details</label>
+                      <textarea name="hospital_details" class="form-control" rows="4"></textarea>
+                    </div>
+                    <div class="col-md-6 form-group">   
+                      <label>Comments</label>
+                      <textarea name="comments" class="form-control" rows="4"></textarea>
+                    </div>
+                     <input type="hidden" name="_token" value="yhRYISsAHZxPd17aYLm8SUPLBizmVVVWzUZWNFnQ">
+                    <div class="col-md-12" style="padding-top: 30px;">
+ </div><button id="requestButton" onclick="myFunction()">Request</button>
+ <p id="demo"></p>
+                  </form>
+    </div>
+  </section>
+  
+  <div class="req">
+    <script>
+      function myFunction() {
+        document.getElementById("demo").innerHTML = "Sucess";
+      }
+      </script>
+  </div>
+
+
